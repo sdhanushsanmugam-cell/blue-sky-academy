@@ -85,6 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Online courses, expert teachers and a student-first learning experience." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "LumenEd — Modern learning for curious minds" },
+      { name: "twitter:description", content: "Online courses, expert teachers and a student-first learning experience." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7efbff98-ac38-4b5b-ac94-09f5e0751406/id-preview-56209870--90c1ddf0-d821-4fbf-be7e-163beffe8e64.lovable.app-1782367037393.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7efbff98-ac38-4b5b-ac94-09f5e0751406/id-preview-56209870--90c1ddf0-d821-4fbf-be7e-163beffe8e64.lovable.app-1782367037393.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
